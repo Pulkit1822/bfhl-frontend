@@ -78,6 +78,12 @@ function App() {
                 <option value="Highest lowercase alphabet">Highest lowercase alphabet</option>
             </select>
             {renderResponse()}
+            <footer className="App-footer">
+                <div>Made with ❤️ by Pulkit Kumar Mathur</div>
+                <div>Reg. No: 21BCE11602</div>
+                <div>Email: pulkit.kumar2021@vitbhopal.ac.in</div>
+                
+            </footer>
         </div>
     );
 }

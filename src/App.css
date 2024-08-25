@@ -6,6 +6,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -55,4 +56,28 @@ strong {
 
 div {
   margin-top: 20px;
+}
+
+.App-footer {
+  color: black !important;;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.9;
+}
+
+.App-footer div {
+  margin: 3px 0;
+}
+
+.App-footer a {
+  color: #61dafb;
 }
