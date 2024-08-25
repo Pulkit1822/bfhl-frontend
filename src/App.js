@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function App() {
     const [jsonInput, setJsonInput] = useState('{"data": ["M", "1", "334", "4", "B"]}');
@@ -62,8 +63,10 @@ function App() {
     };
 
     return (
-        <div>
-            <h1>BFHL Challenge</h1>
+        <div className="App">
+            <div className="App-header">
+                <h1>BFHL Challenge</h1>
+            </div>
             <form onSubmit={handleSubmit}>
                 <textarea value={jsonInput} onChange={(e) => setJsonInput(e.target.value)} rows="10" cols="50" />
                 <button type="submit">Submit</button>
